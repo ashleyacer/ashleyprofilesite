@@ -1,0 +1,119 @@
+.container{display:flex;
+flex-direction:column;
+width: 375px;
+justify-content:center;
+justify-items:center;
+flex-shrink: 2px;
+flex-grow: 2px;}
+.container >*{background-color: rgb(255, 0, 157);
+
+}
+.cover{
+background-image:url(./ashley\ img.jpg ) ;
+background-size: cover;
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+body,html{height: 100%;
+margin: 0%;
+max-width: 600px;
+overflow-x: hidden;
+
+}
+
+#item{position: relative;
+    top:30px;
+    left:30px;
+
+}
+img{border-radius: 100%;
+margin-left: 30px;}
+h2{color: rgb(255, 255, 255);
+font-size: 30px;
+margin-left: 30px;}
+p{color:black;
+font-size: 15px;
+padding: 20px;
+padding-right: 35px;
+margin-right: 15px;
+}
+li{list-style-type: none;}
+#fb{background-color: blue;
+padding: 20px;
+color: white;
+text-align:justify;
+border-radius: 30px;
+font-weight: bold;
+text-decoration:none ;
+font-size: 20px;
+
+}
+#fb:hover{background-color: white;
+color: blue;
+}
+#wt{background-color: rgb(84, 231, 101);
+padding: 20px;
+color:black;
+text-align: center;
+text-decoration: none;
+border-radius: 30px;
+font-weight: bold;
+font-size: 20px;
+margin: 0px;
+margin-top: 30px;
+}
+#wt:hover{background-color: black;
+color: rgb(84, 231, 101);}
+ol{
+width:150px;
+margin-left: 52px;
+margin-bottom: 120px;}
+#hand{text-align: center;
+}
+#chat{font-size: 30px;
+font-style: italic;
+text-align: center;
+color: white;}
+
+
+@media  (min-width:601px){
+    body,html{margin: 0%;
+        min-width: 1440px;
+        height: 100%;
+        
+    }
+.container{display: grid;
+grid-template-columns: 1fr 2fr;
+width: 800px;
+height: 600px;
+position: relative;
+top: 50px;
+left: 22%;
+;
+}
+.href{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: red;
+
+}
+.item{
+    margin-left:17px ;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: red;
+}
+h2{font-size: 30px;}
+p{font-size: 20px;
+padding: 15px;}
+ol{
+position: relative;
+left:100px;
+width: 200px;
+}
+    
+    
+    
+
+    
